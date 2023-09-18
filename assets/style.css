@@ -32,6 +32,9 @@ h3 {
     font-size: 25px;
     margin-top: 15px;
 }
+b {
+    color: #ff7c8e; 
+}
 img {
     display: block;
     height: 50px;

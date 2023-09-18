@@ -53,20 +53,22 @@
         
         <ul>
           <h3>Git Flow</h3>
-          <li>----- In Terminal -----</li>
+          <li>----- Create New Branch -----</li>
           <li>git checkout main ---> navigate to the main branch</li>
           <li>git pull origin main ---> updates your main branch with the latest version from github</li>
           <li>git checkout -b branch/name ---> creates a new branch and navigates to it</li>
           <li>git status ---> tells you what branch your on and its current state</li>
+          <p>----- Update Current Branch in Git with Our Working Directory -----</p>
           <li>git add -A ---> adds all the files in our working directory to the staging area of Git</li>
           <li>git commit -m "descriptive message" ---> commits all the staged changes to our local repository. The -m flag associates a message with the commit. Commit messages should be short descriptive messages of the changes implemented.</li>
-          <p>----- Now our Git repository is up to date with our working directory -----</p>
+          <p>----- Update Github with our Git Branch -----</p>
           <li>git pull origin main ---> syncs our local branch with the remote branch in GitHub in case a team member has added a new feature to the project. see: "Already up to date"</li>
           <li>git push origin branch/name ---> updates the Github branch with our local changes</li>
-          <p>----- Navigate to Github -----</p>
+          <p>----- Prepare Code in Github for Review -----</p>
           <li>navigate to the branch and create a pull request ---> This allows others to review your code and comment</li>
+          <p>----- Merge Complete Code with Main Branch in Github -----</p>
           <li>merge the pull request ---> when the code is finished then it is time to add it to the main branch by merging</li>
-          <p>----- Navigate back to terminal -----</p>
+          <p>----- Update Your Git Main Branch with the New Changes -----</p>
           <li>git checkout main ---> navigate to the main branch</li>
           <li>git pull origin main ---> updates your local main branch with the new merged in feature from github</li>
         </ul>

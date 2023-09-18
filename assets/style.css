@@ -69,7 +69,8 @@ p {
     margin: 40px auto;
     padding: 20px;
     border: 2px solid #775d37;
-    box-shadow: 5px 10px #2e2f42;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px  hsl(0deg 0% 0% / 0.34); /* offset-x | offset-y | blur-radius | spread-radius | color */
     color: white;
     background-color: #2e2f42;
   }

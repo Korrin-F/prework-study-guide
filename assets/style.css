@@ -33,6 +33,14 @@ h3 {
     margin-top: 15px;
     color: #ffd702;
 }
+a{
+    color: #9dd162;
+    text-decoration: none;
+}
+a:hover {
+    color: #3bc089;
+    text-decoration: underline;
+}
 b {
     color: #ff4791; 
 }

@@ -52,12 +52,26 @@
         <h2>Git</h2>
         
         <ul>
+          <h3>Initial Setup & Repo Clone</h3>
+          <p>----- Connect Github to Computer Securely -----</p>
+          <li>Follow the instructions to connect your computer to Github via a secure SSH Key</li>
+          <li>git config --global user.name "Your Name" ---> sets your global name in git (should match your username)</li>
+          <li>git config --global user.email "Your Email" ---> sets your global email in git (you can use the hidden email provided)</li>
+          <p>----- Create a Repository in Github -----</p>
+          <li>In Github create a new repository. Assig yourself as the owner, add any relevant starter files & choose a licence.</li>
+          <p>----- Clone the Repository to Computer -----</p>
+          <li>In Github copy the SSH clone link.</li>
+          <li>cd   ---> Use cd command in terminal to navigate to the folder you want the repository to go.</li>
+          <li>git clone < SSH Link >   ---> type this and paste the link to clone the repo to your computer. </li>
+          <li>cd   ---> Navigate inside the repo folder if not already.</li>
+          <li>Follow the git flow instructions below to work with the new repo. </li>
+
           <h3>Git Flow</h3>
-          <li>----- Create New Branch -----</li>
+          <p>----- Create New Branch -----</p>
           <li>git checkout main ---> navigate to the main branch</li>
           <li>git pull origin main ---> updates your main branch with the latest version from github</li>
           <li>git checkout -b branch/name ---> creates a new branch and navigates to it</li>
-          <li>git status ---> tells you what branch your on and its current state</li>
+          <li>git status ---> tells you what branch your on and its current state. make sure the branch is clean.</li>
           <p>----- Update Current Branch in Git with Our Working Directory -----</p>
           <li>git add -A ---> adds all the files in our working directory to the staging area of Git</li>
           <li>git commit -m "descriptive message" ---> commits all the staged changes to our local repository. The -m flag associates a message with the commit. Commit messages should be short descriptive messages of the changes implemented.</li>

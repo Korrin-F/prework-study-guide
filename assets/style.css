@@ -19,7 +19,7 @@ h1,
 h2,
 h3 {
     text-align: center;
-    color: #ffd702;
+    color: #a2c3eb;
 }
 h1 {
     font-size: 35px;
@@ -31,9 +31,10 @@ h2 {
 h3 {
     font-size: 25px;
     margin-top: 15px;
+    color: #ffd702;
 }
 b {
-    color: #ff7c8e; 
+    color: #ff4791; 
 }
 img {
     display: block;

@@ -45,6 +45,11 @@ a:hover {
 }
 b {
     color: #ff4791; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+li {
+    font-size: 19px;
 }
 img {
     display: block;

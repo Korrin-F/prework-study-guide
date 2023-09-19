@@ -1,4 +1,5 @@
 var topics = ['Terminal', 'HTML', 'CSS', 'Git', 'JavaScript'];
+var randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
 function listTopics() {
     for (var x = 0; x < topics.length; x++) {
@@ -7,18 +8,22 @@ function listTopics() {
   }
 
 function selectTopic() {
-    if (topic === 'HTML') {
+    if (randomTopic === 'HTML') {
     console.log("Let's study HTML!");
-    } else if (topic === 'Terminal') {
+    } else if (randomTopic === 'Terminal') {
     console.log("Let's study Terminal!");
-    } else if (topic === 'CSS') {
+    } else if (randomTopic === 'CSS') {
     console.log("Let's study CSS!");
-    } else if (topic === 'Git') {
+    } else if (randomTopic === 'Git') {
     console.log("Let's study Git!");
-    } else if (topic === 'JavaScript') {
+    } else if (randomTopic === 'JavaScript') {
     console.log("Let's study JavaScript!");
     } else {
     console.log('Please try again!');
     }
 }
 
+console.log('Here are the topics we learned through Prework:');
+listTopics();
+console.log('Which topic should we study first?');
+selectTopic();

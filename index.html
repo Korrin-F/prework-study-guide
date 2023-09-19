@@ -154,7 +154,38 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript Reference Docs</a>
+          <li>Control Flow   ---> The control flow of Javascript runs from the top down.</li>
+          <p>----- Declarations -----</p>
+          <li><b>var variableName = "item";</b>    ---> creates a variable and stores a string. Can also use <b>let</b> or <b>const</b>.</li>
+          <li><b>var myArray=["String Item", 1, true];</b>   ---> creates an array of items that can be of different types.</li>
+          <li><b>function functionName() {}</b>   ---> creates a function. Call the function with <b>functionName()</b></li>
+          <p>----- Console -----</p>
+          <li>Console Location   ---> In the browser right click -> Inspect element -> Console. To see the output.</li>
+          <li>Console   ---> The console in the browser can be used to debug code and test code. Javascript can be entered directly into the console.</li>
+          <li><b>console.log()</b>   ---> This will "log" content to the browsers console, similar to a print statement in other languages.</li>
+          <p>----- Operators -----</p>
+          <li><b>===</b>   ---> Compares two variables. Returns true or false</li>
+          <li><b>!(myVariable === 3);</b> or <b>myVariable !== 3;</b>   ---> Not: reverses the boolean outcome.</li>
+          <li><b>myVariable ++</b>   ---> adds 1 to the total value of myVariable</li>
+          <p>----- Conditionals -----</p>
+          <li><b>if (variable === "name") { //do this }</b>   ---> executes the code if the condition is true.</li>
+          <li><b>} else if (variable === "other name") { do this instead }</b>   ---> creates another option in the if statement.</li>
+          <li><b>} else { do this }</b>   ---> creates a default option in the if statement if nothing else returns true.</li>
+          <p>----- Loops -----</p>
+          <li><b>for(var x = 0; x < shapes.length; x++) {// code block}</b>   ---> the variable declares the starting point for the loop interation. The center is the condition to be met for the loop to begin. The last section allows the loop to iterate. <b>x++</b> adds 1 to x every loop.</li>
+          <p>----- Events -----</p>
+          <li><b>function ()</b>   ---> Anonymous Function: used to execute and declare a function with no name.</li>
+          <li><b>() =></b>   ---> Arrow Function: used to execute and declare a function with no name.</li>
+          <p>----- Random -----</p>
+          <li><b>Math.random()</b>   ---> returns a random number between 0 and 1.</li>
+          <li><b>Math.floor()</b>   ---> rounds a number down to the nearest whole number.</li>
+          <li><b>Math.ceil()</b>   ---> rounds a number up to the nearest whole number.</li>
+          <li><b>Math.round()</b>   ---> rounds a number to the nearest whole number.</li>
+          <li><b>Math.random() * 10</b>   ---> returns a random number between 0 and 10.</li>
+          <li><b>Math.floor(Math.random() * 10)</b>   ---> returns a random number between 0 and 10 rounded down to the nearest whole number.</li>
+          <li><b>var randomTopic = topics[Math.floor(Math.random() * topics.length)];</b>   ---> returns a randome number between 0 and the length of the array.</li>
+
         </ul>
       </section>
     </main>

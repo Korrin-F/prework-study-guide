@@ -48,7 +48,7 @@ a:hover {
     color: #3bc089;
     text-decoration: underline;
 }
-b {
+strong {
     color: #ff4791; 
     font-family: 'Courier New', Courier, monospace;
     font-size: 17px;

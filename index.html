@@ -138,6 +138,14 @@
           <li>Multiple Selectors ---> apply the same styling to multiple selectors by seperating them by commas: <strong> h1, h2, h3 {}</strong></li>
           <li><strong>* {}</strong>   ---> This symbol will apply the styling to all the elements on the page.</li>
           <li><strong>.class-name {}</strong>   ---> this creates a class. Use <strong>class="class-name"</strong> inside a HTML tag to apply the class properties.</li>
+          <li><strong>#id-name {}</strong>   ---> this creates an id. Use <strong>id="id-name"</strong> inside a HTML tag to apply the id properties.</li>
+          <li><strong>element {}</strong>   ---> this selects the element such as all the h1 headings.</li>
+          <li><strong>element, element {}</strong>   ---> this selects multiple elements such as all the h1 and h2 headings.</li>
+          <li><strong>div h1 {}</strong>   ---> this selects an element inside another element such as all the h1 headings inside a div.</li>
+          <li><strong>div > h1 {}</strong>   ---> this selects an element inside another element such as all the h1 headings inside a div but only if they are direct children.</li>
+          <li><strong>div + h1 {}</strong>   ---> this selects an element inside another element such as all the h1 headings inside a div but only if they are directly after the div.</li>
+          <li><strong>div ~ h1 {}</strong>   ---> this selects an element inside another element such as all the h1 headings inside a div but only if they are after the div.</li>
+          <li><strong>element.class {}</strong>   ---> selects all elements that also contain the same class.</li>
           
           <p>----- Properties -----</p>
           <li><strong>display: ;</strong>   ---> controls how the element is displayed. <strong>block</strong> elements take up the whole width of the page and <strong>inline</strong> elements only take up the space they need.</li>
@@ -147,8 +155,13 @@
           <li><strong>padding: ; </strong>  ---> Pushes the border of the element out from the internal element effectivly expanding the size of the whole element.</li>
           <li><strong>color: ;</strong>   ---> controls the font colour</li>
           <li><strong>background-color: ;</strong>   ---> controls the background colour</li>
-          <li>colour values   ---> colour values can be in various forms including names: <strong> blue </strong> or HEX codes: <strong> #ff7c8e </strong> or even RGBA: <strong> rgba(245, 40, 145, 0.8) </strong> where the A is the alpha channel and controls opacity. </li>
+          <li>colour values   ---> colour values can be in various forms including names: <strong> blue </strong> or HEX codes: <strong> #ff7c8e </strong> or even RGBA: <strong> rgba(245, 40, 145, 0.8) </strong> where the A is the alpha channel and controls opacity. And HSL Values. </li>
           <li><strong>font-size: ;</strong>   ---> controls the font size</li>
+          <li><strong>font-family: ;</strong>   ---> controls the font family. Its useful to include several fonts as back ups.</li>
+          <li><strong>font-weight: ;</strong>   ---> controls the font weight</li>
+          <li><strong>text-align: ;</strong>   ---> controls the text alignment</li>
+          <li><strong>text-decoration: ;</strong>   ---> can control what decoration to show or none. decoration might include an underline on links or a strikethrough.</li>
+          <li><strong>text-transform: ;</strong>   ---> ensures the correct capitalisation is used on the text such as uppercase.</li>
 
         </ul>
       </section>
